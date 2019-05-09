@@ -4,7 +4,14 @@ import './index.css';
 import MyDropzone from './App';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<MyDropzone />, document.getElementById('root'));
+import WrapHooks from './WrapHooks';
+
+ReactDOM.render(
+  <React.Fragment>
+    <WrapHooks />
+    {/* <MyDropzone /> */}
+  </React.Fragment>
+, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
