@@ -1,5 +1,7 @@
 
-### Available Scripts
+### Run This Project
 
-> `npm start`
+1. yarn install
+
+2. yarn start
 
